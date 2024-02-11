@@ -72,7 +72,6 @@
             android:onClick="btnClicStarBugsPlus" />
     </LinearLayout>
 
-
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -106,6 +105,116 @@
             app:strokeWidth="1dp" />
 
     </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linLayHeader"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="60sp"
+        android:text="@string/PDDHead"
+        android:textAlignment="center"
+        android:textColor="@color/header_text"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linLayHeader"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="200sp"
+        android:background="@color/header"
+        android:text="@string/PDDHead1"
+        android:textColor="@color/header_text"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linLayHeader"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="225sp"
+        android:background="@color/header"
+        android:text="@string/PDDHead2"
+        android:textColor="@color/header_text"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linLayHeader"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="250sp"
+        android:background="@color/header"
+        android:text="@string/PDDHead3"
+        android:textColor="@color/header_text"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linLayHeader"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="275sp"
+        android:background="@color/header"
+        android:text="@string/PDDHead4"
+        android:textColor="@color/header_text"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linLayHeader"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="300sp"
+        android:background="@color/header"
+        android:text="@string/PDDHead5"
+        android:textColor="@color/header_text"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linLayHeader"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="325sp"
+        android:background="@color/header"
+        android:text="@string/PDDHead6"
+        android:textColor="@color/header_text"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linLayHeader"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="350sp"
+        android:background="@color/header"
+        android:text="@string/PDDHead7"
+        android:textColor="@color/header_text"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linLayHeader"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="375sp"
+        android:background="@color/header"
+        android:text="@string/PDDHead8"
+        android:textColor="@color/header_text"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linLayHeader"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="400sp"
+        android:background="@color/header"
+        android:text="@string/PDDHead9"
+        android:textColor="@color/header_text"
+        android:textSize="15sp" />
 
 
 </RelativeLayout>

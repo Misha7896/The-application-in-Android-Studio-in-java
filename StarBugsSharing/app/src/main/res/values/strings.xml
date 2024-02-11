@@ -21,4 +21,17 @@
     <string name="activate">Активировать</string>
     <string name="rentalHistory">История аренды</string>
     <string name="UsePromoCode">Использовать промокод</string>
+
+    <string name="PDDHead">Правила дорожного движения на Марсе для марсоходов могут отличаться от правил на Земле из-за различий в атмосфере, поверхности и особенностей марсианской транспортной инфраструктуры. Ниже представлены
+общие рекомендации, которые могут быть актуальными для движения марсоходов на Марсе:</string>
+    <string name="PDDHead1">Соблюдайте безопасную скорость</string>
+    <string name="PDDHead2">Соблюдайте дистанцию</string>
+    <string name="PDDHead3">Уступайте дорогу</string>
+    <string name="PDDHead4">Используйте световую сигнализацию</string>
+    <string name="PDDHead5">Соблюдайте экологию:</string>
+    <string name="PDDHead6">Соблюдайте зоны ограничений:</string>
+    <string name="PDDHead7">Обязательное обслуживание:</string>
+    <string name="PDDHead8">Следуйте инструкциям миссии:</string>
+    <string name="PDDHead9">Соблюдайте моральные нормы:</string>
+
 </resources>
