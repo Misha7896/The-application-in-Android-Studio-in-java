@@ -1,4 +1,6 @@
 <resources>
+    <string name="mainText">делитесь поездками. делитесь звёздами. покоряйте Марс.</string>
+    <string name="startNow">Начать сейчас</string>
     <string name="app_name">StarBugsSharing</string>
     <string name="Rent">Арендовать</string>
     <string name="PDD">ПДД</string>
