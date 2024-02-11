@@ -1,12 +1,24 @@
 <resources>
+    <string name="app_name">StarBugsSharing</string>
     <string name="mainText">делитесь поездками. делитесь звёздами. покоряйте Марс.</string>
     <string name="startNow">Начать сейчас</string>
-    <string name="app_name">StarBugsSharing</string>
+    <string name="byDefault">по умолчанию</string>
+    <string name="byFare">по тарифу</string>
+    <string name="byMileage">по пробегу</string>
+    <string name="bySpeed">по скорости</string>
+
+
     <string name="Rent">Арендовать</string>
     <string name="PDD">ПДД</string>
     <string name="ChaVo">ЧаВо</string>
     <string name="StarBugsPlus">StarBugs++</string>
-    <string name="logIn">Войти</string>
-    <string name="registration">Регистрация</string>
+    <string name="exit">Выйти</string>
+    <string name="profile">Профиль</string>
+    <string name="myProfile">Мой профиль</string>
+    <string name="balance">Баланс</string>
+    <string name="ru">рублей</string>
+    <string name="replenish">Пополнить</string>
+    <string name="activate">Активировать</string>
+    <string name="rentalHistory">История аренды</string>
     <string name="UsePromoCode">Использовать промокод</string>
 </resources>

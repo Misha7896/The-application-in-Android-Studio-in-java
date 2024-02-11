@@ -13,6 +13,9 @@
         android:theme="@style/Theme.StarBugsSharing"
         tools:targetApi="31">
         <activity
+            android:name=".RentActivity"
+            android:exported="false" />
+        <activity
             android:name=".ProfileActivity"
             android:exported="false" />
         <activity
