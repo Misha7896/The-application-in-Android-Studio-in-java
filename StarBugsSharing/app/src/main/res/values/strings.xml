@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">StarBugsSharing</string>
+    <string name="Rent">Арендовать</string>
+    <string name="PDD">ПДД</string>
+    <string name="ChaVo">ЧаВо</string>
+    <string name="StarBugsPlus">StarBugs++</string>
+    <string name="logIn">Войти</string>
+    <string name="registration">Регистрация</string>
+    <string name="UsePromoCode">Использовать промокод</string>
 </resources>
