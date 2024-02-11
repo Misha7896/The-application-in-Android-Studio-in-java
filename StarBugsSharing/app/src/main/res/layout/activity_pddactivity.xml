@@ -31,7 +31,8 @@
             android:textSize="15sp"
             android:paddingStart="30dp"
             android:paddingEnd="0dp"
-            app:cornerRadius="0sp" />
+            app:cornerRadius="0sp"
+            android:onClick="btnClicRent" />
 
         <Button
             android:id="@+id/btnPDD"
@@ -43,8 +44,7 @@
             android:textSize="15sp"
             android:paddingStart="20dp"
             android:paddingEnd="0dp"
-            app:cornerRadius="0sp"
-            android:onClick="btnClicPDD" />
+            app:cornerRadius="0sp" />
 
         <Button
             android:id="@+id/btnChaVo"
@@ -107,53 +107,5 @@
 
     </LinearLayout>
 
-    <Button
-        android:id="@+id/btnByDefault"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/linLayHeader"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="45dp"
-        android:padding="3dp"
-        android:backgroundTint="@color/invisible"
-        android:text="@string/byDefault"
-        android:textColor="@color/header_text" />
-
-    <Button
-        android:id="@+id/btnByFare"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/linLayHeader"
-        android:layout_toEndOf="@id/btnByDefault"
-        android:layout_marginTop="45dp"
-        android:padding="3dp"
-        android:backgroundTint="@color/invisible"
-        android:text="@string/byFare"
-        android:textColor="@color/header_text" />
-
-    <Button
-        android:id="@+id/btnByMileage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/linLayHeader"
-        android:layout_toEndOf="@id/btnByFare"
-        android:layout_marginTop="45dp"
-        android:padding="3dp"
-        android:backgroundTint="@color/invisible"
-        android:text="@string/byMileage"
-        android:textColor="@color/header_text" />
-
-    <Button
-        android:id="@+id/btnBySpeed"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/linLayHeader"
-        android:layout_toEndOf="@id/btnByMileage"
-        android:layout_marginTop="45dp"
-        android:padding="3dp"
-        android:backgroundTint="@color/invisible"
-        android:text="@string/bySpeed"
-        android:textColor="@color/header_text" />
 
 </RelativeLayout>

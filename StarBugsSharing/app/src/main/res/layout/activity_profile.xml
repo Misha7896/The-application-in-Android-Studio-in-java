@@ -31,7 +31,8 @@
             android:textSize="15sp"
             android:paddingStart="30dp"
             android:paddingEnd="0dp"
-            app:cornerRadius="0sp" />
+            app:cornerRadius="0sp"
+            android:onClick="btnClicRent" />
 
         <Button
             android:id="@+id/btnPDD"
@@ -43,7 +44,8 @@
             android:textSize="15sp"
             android:paddingStart="20dp"
             android:paddingEnd="0dp"
-            app:cornerRadius="0sp" />
+            app:cornerRadius="0sp"
+            android:onClick="btnClicPDD" />
 
         <Button
             android:id="@+id/btnChaVo"
@@ -55,7 +57,8 @@
             android:textSize="15sp"
             android:paddingStart="10dp"
             android:paddingEnd="0dp"
-            app:cornerRadius="0sp" />
+            app:cornerRadius="0sp"
+            android:onClick="btnClicChaVo" />
 
         <Button
             android:id="@+id/btnStarBugsPlus"
@@ -66,7 +69,8 @@
             android:textColor="@color/header_text"
             android:textSize="15sp"
             android:paddingHorizontal="20dp"
-            app:cornerRadius="0sp" />
+            app:cornerRadius="0sp"
+            android:onClick="btnClicStarBugsPlus" />
     </LinearLayout>
 
     <ImageView
