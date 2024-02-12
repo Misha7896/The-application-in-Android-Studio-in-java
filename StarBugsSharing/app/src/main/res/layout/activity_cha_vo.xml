@@ -77,14 +77,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/linLayHeader"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:layout_alignParentEnd="true">
 
         <Button
             android:id="@+id/btnProfile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="10dp"
             android:backgroundTint="@color/header"
             android:text="@string/profile"
             android:textColor="@color/header_text"
@@ -106,6 +105,152 @@
             app:strokeWidth="1dp" />
 
     </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linLayHeader"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="10sp"
+        android:text="@string/ChaVo0"
+        android:textColor="@color/header_text"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:id="@+id/Chavo1Layout"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_marginTop="60sp"
+        android:orientation="vertical"
+        android:layout_below="@+id/linLayHeader"
+        android:layout_marginHorizontal="5dp"
+        android:background="@color/header" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/ChaVo1"
+            android:textColor="@color/header_text"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/AnswerChaVo1"
+            android:textColor="@color/header_text"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Chavo2Layout"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/Chavo1Layout"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5sp"
+        android:background="@color/header" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/ChaVo2"
+            android:textColor="@color/header_text"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/AnswerChaVo2"
+            android:textColor="@color/header_text"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Chavo3Layout"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/Chavo2Layout"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5sp"
+        android:background="@color/header" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/ChaVo3"
+            android:textColor="@color/header_text"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/AnswerChaVo3"
+            android:textColor="@color/header_text"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Chavo4Layout"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/Chavo3Layout"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5sp"
+        android:background="@color/header" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/ChaVo4"
+            android:textColor="@color/header_text"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/AnswerChaVo4"
+            android:textColor="@color/header_text"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/ChaVoFooter1"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/header"
+        android:text="@string/ChaVoFooter2"
+        android:textColor="@color/header_text"
+        android:textAlignment="center" />
+
 
 
 </RelativeLayout>

@@ -104,14 +104,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/linLayHeader"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:layout_alignParentEnd="true">
 
         <Button
             android:id="@+id/btnProfile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="10dp"
             android:backgroundTint="@color/header"
             android:text="@string/profile"
             android:textColor="@color/header_text"
