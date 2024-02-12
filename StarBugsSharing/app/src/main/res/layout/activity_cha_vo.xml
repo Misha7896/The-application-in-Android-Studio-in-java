@@ -149,7 +149,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="10dp"
                     android:layout_marginBottom="10dp"
-                    android:text="@string/AnswerChaVo1"
+                    android:text="@string/ChaVo1Answer"
                     android:textColor="@color/header_text"
                     android:textSize="15sp" />
 
@@ -176,7 +176,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="10dp"
                     android:layout_marginBottom="10dp"
-                    android:text="@string/AnswerChaVo2"
+                    android:text="@string/ChaVo2Answer"
                     android:textColor="@color/header_text"
                     android:textSize="15sp" />
 
@@ -203,7 +203,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="10dp"
                     android:layout_marginBottom="10dp"
-                    android:text="@string/AnswerChaVo3"
+                    android:text="@string/ChaVo3Answer"
                     android:textColor="@color/header_text"
                     android:textSize="15sp" />
 
@@ -230,7 +230,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="10dp"
                     android:layout_marginBottom="10dp"
-                    android:text="@string/AnswerChaVo4"
+                    android:text="@string/ChaVo4Answer"
                     android:textColor="@color/header_text"
                     android:textSize="15sp" />
 
@@ -259,7 +259,5 @@
         android:text="@string/ChaVoFooter2"
         android:textColor="@color/header_text"
         android:textAlignment="center" />
-
-
 
 </RelativeLayout>
