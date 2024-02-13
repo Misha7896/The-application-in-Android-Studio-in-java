@@ -72,5 +72,11 @@
     <string name="ChaVoFooter1">Если у вас остались вопросы, вы можете обратиться в нашу службу поддержки</string>
     <string name="ChaVoFooter2">©2024, StarBugsSharing</string>
 
+    <string name="StarBugsPlusBody1">Подписка для настоящих покорителей Марса</string>
+    <string name="StarBugsPlusBody2">Подписка StarBugs++ предоставляет вам доступ к абсолютно любому марсоходу, используя Credits.</string>
+    <string name="StarBugsPlusBody3">Всё просто:</string>
+    <string name="StarBugsPlusBody4">Выбирайте любой из доступных марсоходов\nОтдаёте Credits в
+        зависимости от текущего спроса\nИспользуете его для ваших нужд.\nКогда надоедает — освобождаете и получаете Credits обратно\nВсе в плюсе!</string>
+    <string name="StarBugsPlusFooter1">Также вы можете оформить пробный период на 14 дней.\nОтмените в любой удобный вам момент.</string>
 
 </resources>
