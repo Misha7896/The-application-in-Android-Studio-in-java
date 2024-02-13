@@ -2,18 +2,26 @@
     <string name="app_name">StarBugsSharing</string>
     <string name="mainText">делитесь поездками. делитесь звёздами. покоряйте Марс.</string>
     <string name="startNow">Начать сейчас</string>
+    <string name="mainFooter1">Современные технологии</string>
+    <string name="mainFooter2">Наши марсоходы оснащены передовыми технологиями для оптимального исследования.</string>
+    <string name="mainFooter3">Экспертная поддержка</string>
+    <string name="mainFooter4">Наша команда экспертов доступна 24/7 для помощи во время Вашего приключения на Марсе.</string>
+    <string name="mainFooter5">Индивидуальный опыт</string>
+    <string name="mainFooter6">Настройте свое путешествие с нашими опциями марсоходов, подобранными под Ваши потребности.</string>
+    <string name="mainFooter7">Наша миссия - сделать исследование Марса доступным для всех.</string>
+    <string name="mainFooter8">В StarBugsSharing мы стремимся предоставить беспрецендентные возможности для изучения Красной планеты.</string>
+
     <string name="byDefault">по умолчанию</string>
     <string name="byFare">по тарифу</string>
     <string name="byMileage">по пробегу</string>
     <string name="bySpeed">по скорости</string>
-
-
     <string name="Rent">Арендовать</string>
     <string name="PDD">ПДД</string>
     <string name="ChaVo">ЧаВо</string>
     <string name="StarBugsPlus">StarBugs++</string>
     <string name="exit">Выйти</string>
     <string name="profile">Профиль</string>
+
     <string name="myProfile">Мой профиль</string>
     <string name="balance">Баланс</string>
     <string name="ru">рублей</string>
