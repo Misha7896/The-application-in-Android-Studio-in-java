@@ -105,30 +105,27 @@
 
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/PDDHeadView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/linLayHeader"
-        android:layout_marginHorizontal="10dp"
-        android:layout_marginTop="50sp"
-        android:text="@string/PDDHead"
-        android:textAlignment="center"
-        android:textColor="@color/header_text"
-        android:textSize="14sp" />
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/PDDHeadView"
-        android:layout_above="@id/footer1"
-        android:layout_marginTop="10sp"
-        android:layout_marginBottom="5dp" >
+        android:layout_below="@+id/linLayHeader"
+        android:layout_marginTop="60sp" >
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/PDDHeadView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="20sp"
+                android:text="@string/PDDHead"
+                android:textAlignment="center"
+                android:textColor="@color/header_text"
+                android:textSize="14sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -399,17 +396,17 @@
 
             </LinearLayout>
 
+            <TextView
+                android:id="@+id/footer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/header"
+                android:text="@string/ChaVoFooter2"
+                android:textColor="@color/header_text"
+                android:textAlignment="center" />
+
         </LinearLayout>
     </ScrollView>
-
-    <TextView
-        android:id="@+id/footer1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:background="@color/header"
-        android:text="@string/ChaVoFooter2"
-        android:textColor="@color/header_text"
-        android:textAlignment="center" />
 
 </RelativeLayout>
